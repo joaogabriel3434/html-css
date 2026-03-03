@@ -1,0 +1,13 @@
+@charset "UTF-8";
+section{
+    white-space: pre-line;
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a {
+    color: white;
+    
+}
