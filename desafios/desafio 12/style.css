@@ -3,10 +3,15 @@
     margin: 0px;
     padding: 0px;
 }
+ 
+@font-face {
+    font-family: Caviar Dreams;
+    src: url('fontes/CaviarDreams.ttf') format('opentype');
+}
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: Nexa;
+    src: url('fontes/Nexa-Heavy.ttf') format('opentype');
 }
 html,body{
     min-height: 100vh;
@@ -16,10 +21,12 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+   
 }
 header > h1{
     padding-top: 50px;
-    font-variant: small-caps;
+    font-family: "Nexa", sans-serif;
+    font-size: 5vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -39,7 +46,11 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: "Caviar Dreams", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
 }
+
 section.normal{
     background-color: white;
     color: black;
@@ -47,9 +58,11 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.61);
     color: white;
+    padding: 5px;
+    display: inline-block;
 }
 section.imagem > p {
-    background-color: rgba(15, 15, 15, 0.63);
+    ;
     color: white;
 }
 
