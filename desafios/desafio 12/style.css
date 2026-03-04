@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Nexa;
+    src: url("fontes/Nexa-ExtraLight.ttf") format("opentype");
+}
+@font-face {
+    font-family: Caviar;
+    src: url("fontes/CaviarDreams.ttf") format("opentype");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height:100vh ;
+    background-color: darkgray;
+}
+header{
+background-color: black;
+color: white;
+font-size: 2em;
+font-family: "Nexa", sans-serif;
+text-align: center;
+}
+
+header h1{
+    padding-top: 50px;
+}
+header p{
+    padding-bottom: 50px;
+}
+header a{
+text-decoration: none;
+text-align: center;
+color: white;
+font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+pre{
+    white-space: pre-line;
+    padding-left: 3vw;
+    font-size: 30px;
+    font-family: "Caviar", sans-serif;
+}
+section{ 
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+section p{
+   line-height: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+
+}
+section.imagem{
+    background-color: rgba(19, 18, 18, 0.521);
+    color: white;
+    
+}
+.imagem p{
+    background-color: rgba(14, 13, 13, 0.555);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
