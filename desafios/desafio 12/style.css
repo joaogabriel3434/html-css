@@ -25,6 +25,7 @@ text-align: center;
 
 header h1{
     padding-top: 50px;
+    font-size: 3vw;
 }
 header p{
     padding-bottom: 50px;
@@ -47,10 +48,12 @@ pre{
 section{ 
     padding-top: 10vh;
     padding-bottom: 10vh;
+   
 
 }
 section p{
    line-height: 2em;
+    font-size: 2.5vw;
 }
 section.normal{
     background-color: white;
@@ -64,7 +67,7 @@ section.imagem{
 }
 .imagem p{
     background-color: rgba(14, 13, 13, 0.555);
-    width: 400px;
+    display: inline-block;
 }
 
 footer{
