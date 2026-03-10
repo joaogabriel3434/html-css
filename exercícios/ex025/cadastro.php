@@ -1,0 +1,1 @@
+Pronto! Seu cadastro já foi enviado!
