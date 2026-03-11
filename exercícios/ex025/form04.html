@@ -11,16 +11,25 @@
     </style>
 </head>
 <body>
-    <form action="cadastro.php"></form>
-    <p>
-        <label for="iemail">E-mail</label>
-        <input type="email" name="email" id="iemail" autocomplete="email" required>
-    </p>
-   
-    <p>
-        <label for="itel">Telefone</label>]
-        <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^[0-9] {4}-[0-9]{4} required">
-    </p>
-    
+    <h1>Exemplo de Formulário</h1>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php" method="post">
+            <p><label for="inome">Nome</label>
+                <input type="text" name="nomr" id="inome" required>
+            </p>
+        <p>
+            <label for="iemail">E-mail</label>
+            <input type="email" name="email" id="iemail" autocomplete="email" required>
+        </p>
+        <p>
+            <label for="itel">Telefone</label>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^(\d{2}\)\d{4,5}-\d{4}$" required>
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" name="limpar" id="ilimpar" value="Limpar">
+        
+        </form>
+    </fieldset>
 </body>
 </html>
